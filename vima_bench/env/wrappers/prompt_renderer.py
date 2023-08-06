@@ -6,9 +6,7 @@ import cv2
 import gym
 import numpy as np
 from einops import rearrange
-
 from ..base import VIMAEnvBase
-
 
 class PromptRenderer(gym.Wrapper):
     def __init__(
