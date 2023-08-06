@@ -191,6 +191,7 @@ class Cv2Display:
             else:
                 return img
 
+
     def __call__(self, img):
         if not self._enabled:
             return
